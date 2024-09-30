@@ -1,0 +1,16 @@
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+    <div class="input-box">
+        <input type="hidden" name="access_key" value="93461ab0-659d-4b08-af8c-9e66e5729f83">
+        <input type="text" name="name" placeholder="name" required>
+        <input type="email" placeholder="Email" required>
+       <input type="number" placeholder="Phone number" required>
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Custom Confirmation / Success Page -->
+     <input type="hidden" name="redirect" value="index.html#contact">
+   <input type="submit" value="Send message" class="btn">
+   </form>
